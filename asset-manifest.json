@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/PortfolioReact/static/css/main.04bf197d.css",
+    "main.js": "/PortfolioReact/static/js/main.0e1eeca6.js",
+    "static/js/787.3e94429a.chunk.js": "/PortfolioReact/static/js/787.3e94429a.chunk.js",
+    "static/media/candy.png": "/PortfolioReact/static/media/candy.7a9320109bb06a5c0ba4.png",
+    "static/media/grid.png": "/PortfolioReact/static/media/grid.290a1e71886e7d1b0356.png",
+    "static/media/Timestore.png": "/PortfolioReact/static/media/Timestore.578bd70ea5d617bde8fc.png",
+    "static/media/SportsTech.png": "/PortfolioReact/static/media/SportsTech.80cf67d8fe11855f9e29.png",
+    "static/media/bikinilista.png": "/PortfolioReact/static/media/bikinilista.4f3b9b26dad8c91a2a5c.png",
+    "static/media/little-room.png": "/PortfolioReact/static/media/little-room.ba06174a92ccb5b27c71.png",
+    "static/media/Superbike.png": "/PortfolioReact/static/media/Superbike.46434a479e583fbe6f92.png",
+    "static/media/Steppix.png": "/PortfolioReact/static/media/Steppix.0e8d66a406994b634b26.png",
+    "static/media/clothes.png": "/PortfolioReact/static/media/clothes.2dff4127ce2964116299.png",
+    "static/media/Kulzer.png": "/PortfolioReact/static/media/Kulzer.ffdfb04ee714d489fb80.png",
+    "static/media/zap.png": "/PortfolioReact/static/media/zap.c53f020803472ac1b66a.png",
+    "static/media/todolist.png": "/PortfolioReact/static/media/todolist.f90d94e108c7eef2f96e.png",
+    "static/media/back.jpg": "/PortfolioReact/static/media/back.67b09d44444183a72683.jpg",
+    "static/media/photo_1.jpg": "/PortfolioReact/static/media/photo_1.9d219987fab31dc77e68.jpg",
+    "static/media/3.jpg": "/PortfolioReact/static/media/3.edb5af19dcaa72860349.jpg",
+    "index.html": "/PortfolioReact/index.html",
+    "main.04bf197d.css.map": "/PortfolioReact/static/css/main.04bf197d.css.map",
+    "main.0e1eeca6.js.map": "/PortfolioReact/static/js/main.0e1eeca6.js.map",
+    "787.3e94429a.chunk.js.map": "/PortfolioReact/static/js/787.3e94429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04bf197d.css",
+    "static/js/main.0e1eeca6.js"
+  ]
+}
