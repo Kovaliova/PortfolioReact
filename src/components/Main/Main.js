@@ -25,7 +25,7 @@ const Main = () => {
         <section className="about-block" id="about">
             <AboutSection 
               headingText="About me"
-              descriptionText="Hello, my name is Katya Kovaleva. I have 5 years of experience in Front-End Development (commercial projects). I believe that my strengths are creativity and punctuality. I try to carefully approach to the fulfillment of tasks. I am able to find different solutions to tasks. I strive to improve my professional level (courses, independent practice). I am always open for communication, easily find contact with other people. You can learn more about me from my CV (work in companies and used stack on projects)."
+              descriptionText="Hello, my name is Kate Kovaliova. I have 5 years of experience in Front-End Development (commercial projects). I believe that my strengths are creativity and punctuality. I try to carefully approach to the fulfillment of tasks. I am able to find different solutions to tasks. I strive to improve my professional level (courses, independent practice). I am always open for communication, easily find contact with other people. You can learn more about me from my CV (work in companies and used stack on projects)."
             />
         </section>
         <section className="grey-area talkabout">
