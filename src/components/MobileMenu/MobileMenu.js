@@ -31,7 +31,7 @@ export default props => {
                   </a>
             </div>
         </div>
-        <div className="d-md-flex d-sm-none header-columns--container">
+        <div className="d-md-flex header-columns--container">
          <Link activeClass="active" to="home" spy={true} smooth={true} delay={0} duration={0}>
                     <FontAwesomeIcon className="fa-icon" icon={faHouse} />
                     <span>Home</span>
