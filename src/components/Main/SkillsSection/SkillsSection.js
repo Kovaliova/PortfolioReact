@@ -1,9 +1,10 @@
 import Font from 'react-font';
 
-const SkillsSection = () => (
+const SkillsSection = ({additionalTxtSkills}) => (
     <div class="main">
         <Font family='Poppins'>
-            <h1>Skills</h1>
+            <h1 className='label'>Skills</h1>
+            <p>{additionalTxtSkills}</p>
         </Font>
         <div className="skills-container">
         <div className="skill">

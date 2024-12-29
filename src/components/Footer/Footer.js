@@ -2,15 +2,13 @@ import React from 'react';
 import './Footer.scss';
 import { string } from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Font, {Text} from 'react-font';
 
-const Footer = ({headText, additionalText, link, mailAddress, phone, imgPhoto, iconPhone, iconEnvelope, iconLinkedin, copyRightText}) =>(
+
+const Footer = ({headText, additionalText, link, mailAddress, phone, iconPhone, iconEnvelope, iconLinkedin, copyRightText}) =>(
     <div className="footer" id="footer">
       <div className="container">
-        <Font family='Poppins'>
-		        <h1 className="head_text">{headText}</h1>
-		        <h3>{additionalText}</h3>
-        </Font>
+		        <h1 className="head_text label">{headText}</h1>
+		        <p>{additionalText}</p>
 		      <div className="info_footer">
 		        <div className="info_social">
 			        <div className="text">
@@ -44,12 +42,11 @@ const Footer = ({headText, additionalText, link, mailAddress, phone, imgPhoto, i
               </ul>
 		        </div>
 		      </div>
-		      <div className="image_social">
-		        <img src={imgPhoto} alt="footer-image"/>
-		      </div>
 	      </div>
       </div>
-      <Text family='Poppins'>{copyRightText}</Text>
+      <div className='copyright'>
+        <p>{copyRightText}</p>
+      </div>
 	</div>
 );
 

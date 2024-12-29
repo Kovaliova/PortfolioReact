@@ -4,25 +4,46 @@
 }
 .bm-burger-button {
     position: fixed;
-    width: 30px;
-    height: 25px;
-    left: 15px;
-    top: 19px;
-  }
-  .bm-burger-bars {
-    background: var(--color-white);
-    height: 11%!important;
-    &-hover {
-        background: var(--color-black);
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #000000;
+    padding: 15px;
+      &:hover{
+        span{
+          &.bm-burger-bars{
+            background: var(--color-blue);
+            opacity: 1!important;
+          }
+        }
+      }
+      span{
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        height: 20px;
+        &.bm-burger-bars {
+          background: var(--accent-color);
+          height: 7%!important;
+          position: inherit!important;
+          &-hover {
+              background: var(--color-black);
+            }
+        }
       }
   }
+
   .bm-cross {
-    background: var(--color-white);
+    background: var(--accent-color);
     width: 2px!important;
     height: 18px!important;
     &-button {
         height: 24px;
         width: 24px;
+      }
+      &:hover{
+        background: var(--color-blue);
       }
   }
   .bm-menu {

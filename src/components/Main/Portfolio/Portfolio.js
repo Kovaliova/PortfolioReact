@@ -11,37 +11,12 @@ import nineImg from '../../../assets/Kulzer.png';
 import tenImg from '../../../assets/Steppix.png';
 import elevenImg from '../../../assets/little-room.png';
 import twelveImg from '../../../assets/clothes.png';
+import thirteenImg from '../../../assets/redstore.png';
 
 const Portfolio = () =>(
-    <div className="conteiner">
-        <Font family='Poppins'>
-		    <h1 className="head_text">Portfolio</h1>
-        </Font>
-		<div className="main">
-		    <div className="view view-first">
-                <img src={firstImg} alt="project-candy"/>
-            <div className="mask">
-            <a href="https://kovaliova.github.io/Candy/index.html" className="info" target="_blank">View More</a>
-            </div>
-        </div>
-         <div className="view view-first">
-            <img src={secondImg} alt="react-project-game"/>
-            <div className="mask">
-                <a href="https://kovaliova.github.io/zapominay/index.html" className="info" target="_blank">View More</a>
-            </div>
-        </div>
-        <div className="view view-first">
-            <img src={thirdImg} alt="project-todo-list-js"/>
-            <div className="mask">
-                <a href="https://kovaliova.github.io/To%20Do%20List/index.html" className="info" target="_blank">View More</a>
-            </div>
-        </div>    
-        <div className="view view-first">
-            <img src={fourthImg} alt="project-grid-table"/>
-            <div className="mask">
-                <a href="https://kovaliova.github.io/grid_webdesign/index.html" className="info" target="_blank">View More</a>
-            </div>
-        </div>  
+    <div className="container">
+		    <h1 className="head_text label">Portfolio</h1>
+		<div className="main">    
         <div className="view view-first">
             <img src={fiveImg} alt="project-bikinilista"/>
             <div className="mask">
@@ -88,6 +63,12 @@ const Portfolio = () =>(
             <img src={twelveImg} alt="project-kristina-fidelskaya"/>
             <div className="mask">
                 <a href="https://kristinafidelskaya.com/" className="info" target="_blank">View More</a>
+            </div>
+        </div>  
+        <div className="view view-first">
+            <img src={thirteenImg} alt="project-redstore"/>
+            <div className="mask">
+                <a href="http://redstore.by/" className="info" target="_blank">View More</a>
             </div>
         </div>  
     </div> 
