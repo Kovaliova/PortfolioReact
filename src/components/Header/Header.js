@@ -30,7 +30,7 @@ const Header = ({imageSrc, authorName, link, mailAddress, phone, iconPhone, icon
                   </a>
             </div>
         </div>
-        <div className="d-md-flex d-sm-none header-columns--container">
+        <div className="d-md-flex header-columns--container">
             <nav>
               <Link activeClass="active" to="home" spy={true} smooth={true} delay={0} duration={0}>
                   <FontAwesomeIcon className="fa-icon" icon={iconHome} />

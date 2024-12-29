@@ -8,12 +8,12 @@
     height: 100%;
     width: 300px;
     overflow-y: auto;
-    @media screen and (max-width: 1023px){
+    @media screen and (max-width: 1000px){
         background: transparent;
-        width: 0;
+        z-index: 1090;
     }
     &-columns{
-        @media screen and (max-width: 1023px){
+        @media screen and (max-width: 1000px){
             display: none;
         }
         &--container{
@@ -55,7 +55,7 @@
                 }
                 svg{
                     color: var(--color-white);
-                    @media screen and (max-width: 1023px){
+                    @media screen and (max-width: 1000px){
                         font-size: 15px;
                     }
                 }
@@ -67,7 +67,7 @@
             }
         }
         .profile-img{
-            @media screen and (max-width: 1023px){
+            @media screen and (max-width: 1000px){
                 text-align: center;
             }
             img{
@@ -82,7 +82,7 @@
             font-size: var( --font-size-h1);
             font-weight: 700;
             margin-bottom: 15px;
-            @media screen and (max-width: 1023px){
+            @media screen and (max-width: 1000px){
                 text-align: center;
             }
         }
