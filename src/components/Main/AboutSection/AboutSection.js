@@ -1,6 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const AboutSection = ({ headingText, descriptionText, textCV, resumeLink}) => {
+const AboutSection = ({ headingText, descriptionText, textCV, resumeLink, iconCV}) => {
 
   const handleDownload = () => {
     if (resumeLink) {
@@ -19,6 +20,7 @@ const AboutSection = ({ headingText, descriptionText, textCV, resumeLink}) => {
       <p className="description_text">{descriptionText}</p>
       {resumeLink ? (
         <button onClick={handleDownload} className="link_resume">
+          <FontAwesomeIcon className="fa-icon" icon={iconCV} />
           {textCV}
         </button>
       ) : (
