@@ -4,7 +4,7 @@ import {Link} from 'react-scroll';
 import './MobileMenu.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone, faHouse, faUser, faWandMagicSparkles, faUserGraduate, faFolder} from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
 export default props => {
   return (
@@ -26,8 +26,8 @@ export default props => {
                   </a>
             </div>
             <div className='phone'>
-                  <a href="tel:+48572180396">
-                        <FontAwesomeIcon className="fa-icon" icon={faPhone} />
+                  <a href="https://t.me/kate_koval95">
+                        <FontAwesomeIcon className="fa-icon" icon={faTelegram} />
                   </a>
             </div>
         </div>
