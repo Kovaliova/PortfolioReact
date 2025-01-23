@@ -110,7 +110,9 @@
             line-height: 32px;
             font-size: var(--font-size-p);
         }
-        a{
+        button{
+            background-color: transparent;
+            border: 0;
             color: var(--accent-color);
             svg{
                 margin-right: 5px;
@@ -145,7 +147,7 @@
         }
         .skills-container{
             display: flex;
-            gap: 40px 54px;
+            gap: 40px 85px;
             flex-wrap: wrap;
             .skill{
                 h4{

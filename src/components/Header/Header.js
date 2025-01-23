@@ -5,7 +5,7 @@ import {Link} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MobileMenu from '../../components/MobileMenu';
 
-const Header = ({imageSrc, authorName, link, mailAddress, phone, iconPhone, iconEnvelope, iconLinkedin, iconHome, iconUser, iconSkills, iconEducation, iconPortfolio}) => (
+const Header = ({imageSrc, authorName, link, mailAddress, linkTelegram, iconTelegram, iconEnvelope, iconLinkedin, iconHome, iconUser, iconSkills, iconEducation, iconPortfolio}) => (
     <header id="top" className="header">
     <div className="container">
       <div className="header-columns">
@@ -25,8 +25,8 @@ const Header = ({imageSrc, authorName, link, mailAddress, phone, iconPhone, icon
                   </a>
             </div>
             <div className='phone'>
-                  <a href={phone}>
-                        <FontAwesomeIcon className="fa-icon" icon={iconPhone} />
+                  <a href={linkTelegram}>
+                        <FontAwesomeIcon className="fa-icon" icon={iconTelegram} />
                   </a>
             </div>
         </div>

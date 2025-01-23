@@ -6,7 +6,7 @@ const Banner = ({headingText}) => (
      <h1 className="main_info">
      	{headingText}
      </h1>
-     <div class="typed-out">
+     <div className="typed-out">
         <p>I'm</p>
         <Typewriter options={{strings: ['Web Developer', ''],autoStart: true,loop: true, pauseFor:50}}
 />

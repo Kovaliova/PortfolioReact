@@ -4,7 +4,7 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css'
 import { faEnvelope, faPhone, faHouse, faUser, faWandMagicSparkles, faUserGraduate, faFolder} from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faTelegram } from '@fortawesome/free-brands-svg-icons';
 import mainImg from './assets/photo_1.jpg';
 
 function App() {
@@ -18,7 +18,8 @@ function App() {
         iconEnvelope={faEnvelope}
         mailAddress="mailto:Kate1996970@gmail.com"
         iconPhone={faPhone}
-        phone="tel:+48572180396"
+        iconTelegram={faTelegram}
+        linkTelegram="https://t.me/kate_koval95"
         iconHome={faHouse}
         iconUser={faUser}
         iconSkills={faWandMagicSparkles}
